@@ -22,7 +22,7 @@ O front-end roda em `http://localhost:4200` e possui os seguintes endpoints:
 
     ```sh
     git clone <url-do-repositório>
-    cd frontend
+    cd login-appfrontend
     ```
 
 3. **Instalar dependências**:
