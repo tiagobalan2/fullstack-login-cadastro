@@ -1,0 +1,14 @@
+<div class="container1">
+  <div class="container2">
+    <div class="caixa">
+      <h1>welcome</h1>
+      <ng-content></ng-content>
+      <button (click)="submit()" [disabled]="disabledButton">
+        {{ buttonText }}
+      </button>
+      <p>
+        {{ pText }}<span (click)="navigate()">{{ spanText }}</span>
+      </p>
+    </div>
+  </div>
+</div>

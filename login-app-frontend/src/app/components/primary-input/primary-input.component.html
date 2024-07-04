@@ -1,0 +1,9 @@
+<div class="input-container">
+  <input
+    [type]="type"
+    (input)="onInput($event)"
+    (blur)="onTouch()"
+    placeholder=" "
+  />
+  <label>{{ placeholder }}</label>
+</div>

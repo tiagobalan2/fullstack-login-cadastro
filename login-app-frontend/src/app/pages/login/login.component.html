@@ -1,0 +1,24 @@
+<app-deafault-login-layout
+  buttonText="Login"
+  pText="Don't have an account? "
+  spanText="Sign up"
+  (submit)="submit()"
+  (navigate)="navigate()"
+  [disabledButton]="!loginForm.valid"
+>
+  <form [formGroup]="loginForm">
+    <app-primary-input
+      formControlName="email"
+      type="email"
+      placeholder="Your email"
+    ></app-primary-input>
+    <app-primary-input
+      formControlName="password"
+      type="password"
+      placeholder="Your Password"
+    >
+    </app-primary-input>
+  </form>
+</app-deafault-login-layout>
+
+<!--ta dando problema aqui quando eu vou usar o app-primary-input depois corrigir essa merda.-->
