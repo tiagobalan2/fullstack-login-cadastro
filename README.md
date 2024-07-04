@@ -52,7 +52,7 @@ O back-end roda na porta `8080` e possui os seguintes endpoints:
 
     ```sh
     git clone <url-do-repositório>
-    cd backend
+    cd login-backend
     ```
 
 2. **Adicionar configuração do banco de dados**: Crie um arquivo `application.properties` no diretório `src/main/resources` com a configuração do seu banco de dados. Aqui está um exemplo de configuração para PostgreSQL:
